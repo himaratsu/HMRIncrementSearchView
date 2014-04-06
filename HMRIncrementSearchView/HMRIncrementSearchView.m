@@ -1,11 +1,3 @@
-//
-//  HMRIncrementSearchView.m
-//  HMRIncrementSearchView
-//
-//  Created by himara2 on 2014/04/06.
-//  Copyright (c) 2014年 himara2. All rights reserved.
-//
-
 #import "HMRIncrementSearchView.h"
 
 static const NSInteger HMRTextFieldHeight = 30;
@@ -45,20 +37,23 @@ static const NSInteger HMRTextFieldHeight = 30;
 
 - (void)initialize
 {
-    self.textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, HMRTextFieldHeight)];
+    self.textField = [[UITextField alloc] initWithFrame:CGRectMake(self.bounds.origin.x,
+                                                                   self.bounds.origin.y,
+                                                                   self.bounds.size.width,
+                                                                   HMRTextFieldHeight)];
     _textField.borderStyle = UITextBorderStyleRoundedRect;
     _textField.delegate = self;
     [self addSubview:_textField];
     
-    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, HMRTextFieldHeight,
-                                                                   self.frame.size.width,
-                                                                   self.frame.size.height - HMRTextFieldHeight)];
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(self.bounds.origin.x,
+                                                                   HMRTextFieldHeight,
+                                                                   self.bounds.size.width,
+                                                                   self.bounds.size.height - HMRTextFieldHeight)];
     _tableView.dataSource = self;
     _tableView.delegate = self;
     [self addSubview:_tableView];
     
     _isShowTableViewWithNoText = NO;
-    
 }
 
 - (void)reloadData {
@@ -127,7 +122,6 @@ replacementString:(NSString *)string {
     // TODO: 厳密に現在の文字列を取得するよう変更する
     NSString *inputString = _textField.text;
     
-    // 変更があったことを通知して新しいリストを取得
     if ([_hmrDelegate respondsToSelector:@selector(didChangeText:withText:)]) {
         [_hmrDelegate didChangeText:self withText:inputString];
     }
