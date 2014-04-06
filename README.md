@@ -3,7 +3,6 @@ HMRIncrementSearchView
 
 HMRIncrementSearchView is a interface for Incremental Search with UITextField and UITableView.
 
-![](https://raw.githubusercontent.com/himaratsu/HMRIncrementSearchView/master/IncrementSearchViewDemo/ScreenShot/screenshot01.png)  
 ![](https://raw.githubusercontent.com/himaratsu/HMRIncrementSearchView/master/IncrementSearchViewDemo/ScreenShot/screenshot02.png)  
 
 
