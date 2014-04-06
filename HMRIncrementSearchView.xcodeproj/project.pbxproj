@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2079DA7918F16D0A004C71F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA7818F16D0A004C71F8 /* Foundation.framework */; };
+		2079DA7E18F16D0A004C71F8 /* HMRIncrementSearchView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2079DA7D18F16D0A004C71F8 /* HMRIncrementSearchView.h */; };
+		2079DA8018F16D0A004C71F8 /* HMRIncrementSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079DA7F18F16D0A004C71F8 /* HMRIncrementSearchView.m */; };
+		2079DA8718F16D0A004C71F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA8618F16D0A004C71F8 /* XCTest.framework */; };
+		2079DA8818F16D0A004C71F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA7818F16D0A004C71F8 /* Foundation.framework */; };
+		2079DA8A18F16D0A004C71F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA8918F16D0A004C71F8 /* UIKit.framework */; };
+		2079DA8D18F16D0A004C71F8 /* libHMRIncrementSearchView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA7518F16D0A004C71F8 /* libHMRIncrementSearchView.a */; };
+		2079DA9318F16D0A004C71F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2079DA9118F16D0A004C71F8 /* InfoPlist.strings */; };
+		2079DA9518F16D0A004C71F8 /* HMRIncrementSearchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079DA9418F16D0A004C71F8 /* HMRIncrementSearchViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2079DA8B18F16D0A004C71F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2079DA6D18F16D0A004C71F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2079DA7418F16D0A004C71F8;
+			remoteInfo = HMRIncrementSearchView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2079DA7318F16D0A004C71F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2079DA7E18F16D0A004C71F8 /* HMRIncrementSearchView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2079DA7518F16D0A004C71F8 /* libHMRIncrementSearchView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHMRIncrementSearchView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2079DA7818F16D0A004C71F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2079DA7C18F16D0A004C71F8 /* HMRIncrementSearchView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HMRIncrementSearchView-Prefix.pch"; sourceTree = "<group>"; };
+		2079DA7D18F16D0A004C71F8 /* HMRIncrementSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMRIncrementSearchView.h; sourceTree = "<group>"; };
+		2079DA7F18F16D0A004C71F8 /* HMRIncrementSearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRIncrementSearchView.m; sourceTree = "<group>"; };
+		2079DA8518F16D0A004C71F8 /* HMRIncrementSearchViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMRIncrementSearchViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2079DA8618F16D0A004C71F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2079DA8918F16D0A004C71F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2079DA9018F16D0A004C71F8 /* HMRIncrementSearchViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HMRIncrementSearchViewTests-Info.plist"; sourceTree = "<group>"; };
+		2079DA9218F16D0A004C71F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2079DA9418F16D0A004C71F8 /* HMRIncrementSearchViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRIncrementSearchViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2079DA7218F16D0A004C71F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2079DA7918F16D0A004C71F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2079DA8218F16D0A004C71F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2079DA8718F16D0A004C71F8 /* XCTest.framework in Frameworks */,
+				2079DA8A18F16D0A004C71F8 /* UIKit.framework in Frameworks */,
+				2079DA8D18F16D0A004C71F8 /* libHMRIncrementSearchView.a in Frameworks */,
+				2079DA8818F16D0A004C71F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2079DA6C18F16D0A004C71F8 = {
+			isa = PBXGroup;
+			children = (
+				2079DA7A18F16D0A004C71F8 /* HMRIncrementSearchView */,
+				2079DA8E18F16D0A004C71F8 /* HMRIncrementSearchViewTests */,
+				2079DA7718F16D0A004C71F8 /* Frameworks */,
+				2079DA7618F16D0A004C71F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2079DA7618F16D0A004C71F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2079DA7518F16D0A004C71F8 /* libHMRIncrementSearchView.a */,
+				2079DA8518F16D0A004C71F8 /* HMRIncrementSearchViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2079DA7718F16D0A004C71F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2079DA7818F16D0A004C71F8 /* Foundation.framework */,
+				2079DA8618F16D0A004C71F8 /* XCTest.framework */,
+				2079DA8918F16D0A004C71F8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2079DA7A18F16D0A004C71F8 /* HMRIncrementSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				2079DA7D18F16D0A004C71F8 /* HMRIncrementSearchView.h */,
+				2079DA7F18F16D0A004C71F8 /* HMRIncrementSearchView.m */,
+				2079DA7B18F16D0A004C71F8 /* Supporting Files */,
+			);
+			path = HMRIncrementSearchView;
+			sourceTree = "<group>";
+		};
+		2079DA7B18F16D0A004C71F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2079DA7C18F16D0A004C71F8 /* HMRIncrementSearchView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2079DA8E18F16D0A004C71F8 /* HMRIncrementSearchViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2079DA9418F16D0A004C71F8 /* HMRIncrementSearchViewTests.m */,
+				2079DA8F18F16D0A004C71F8 /* Supporting Files */,
+			);
+			path = HMRIncrementSearchViewTests;
+			sourceTree = "<group>";
+		};
+		2079DA8F18F16D0A004C71F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2079DA9018F16D0A004C71F8 /* HMRIncrementSearchViewTests-Info.plist */,
+				2079DA9118F16D0A004C71F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2079DA7418F16D0A004C71F8 /* HMRIncrementSearchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2079DA9818F16D0A004C71F8 /* Build configuration list for PBXNativeTarget "HMRIncrementSearchView" */;
+			buildPhases = (
+				2079DA7118F16D0A004C71F8 /* Sources */,
+				2079DA7218F16D0A004C71F8 /* Frameworks */,
+				2079DA7318F16D0A004C71F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMRIncrementSearchView;
+			productName = HMRIncrementSearchView;
+			productReference = 2079DA7518F16D0A004C71F8 /* libHMRIncrementSearchView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2079DA8418F16D0A004C71F8 /* HMRIncrementSearchViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2079DA9B18F16D0A004C71F8 /* Build configuration list for PBXNativeTarget "HMRIncrementSearchViewTests" */;
+			buildPhases = (
+				2079DA8118F16D0A004C71F8 /* Sources */,
+				2079DA8218F16D0A004C71F8 /* Frameworks */,
+				2079DA8318F16D0A004C71F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2079DA8C18F16D0A004C71F8 /* PBXTargetDependency */,
+			);
+			name = HMRIncrementSearchViewTests;
+			productName = HMRIncrementSearchViewTests;
+			productReference = 2079DA8518F16D0A004C71F8 /* HMRIncrementSearchViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2079DA6D18F16D0A004C71F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = himara2;
+			};
+			buildConfigurationList = 2079DA7018F16D0A004C71F8 /* Build configuration list for PBXProject "HMRIncrementSearchView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2079DA6C18F16D0A004C71F8;
+			productRefGroup = 2079DA7618F16D0A004C71F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2079DA7418F16D0A004C71F8 /* HMRIncrementSearchView */,
+				2079DA8418F16D0A004C71F8 /* HMRIncrementSearchViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2079DA8318F16D0A004C71F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2079DA9318F16D0A004C71F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2079DA7118F16D0A004C71F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2079DA8018F16D0A004C71F8 /* HMRIncrementSearchView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2079DA8118F16D0A004C71F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2079DA9518F16D0A004C71F8 /* HMRIncrementSearchViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2079DA8C18F16D0A004C71F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2079DA7418F16D0A004C71F8 /* HMRIncrementSearchView */;
+			targetProxy = 2079DA8B18F16D0A004C71F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2079DA9118F16D0A004C71F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2079DA9218F16D0A004C71F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2079DA9618F16D0A004C71F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2079DA9718F16D0A004C71F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2079DA9918F16D0A004C71F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HMRIncrementSearchView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMRIncrementSearchView/HMRIncrementSearchView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2079DA9A18F16D0A004C71F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HMRIncrementSearchView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMRIncrementSearchView/HMRIncrementSearchView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2079DA9C18F16D0A004C71F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMRIncrementSearchView/HMRIncrementSearchView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HMRIncrementSearchViewTests/HMRIncrementSearchViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2079DA9D18F16D0A004C71F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMRIncrementSearchView/HMRIncrementSearchView-Prefix.pch";
+				INFOPLIST_FILE = "HMRIncrementSearchViewTests/HMRIncrementSearchViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2079DA7018F16D0A004C71F8 /* Build configuration list for PBXProject "HMRIncrementSearchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2079DA9618F16D0A004C71F8 /* Debug */,
+				2079DA9718F16D0A004C71F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2079DA9818F16D0A004C71F8 /* Build configuration list for PBXNativeTarget "HMRIncrementSearchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2079DA9918F16D0A004C71F8 /* Debug */,
+				2079DA9A18F16D0A004C71F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2079DA9B18F16D0A004C71F8 /* Build configuration list for PBXNativeTarget "HMRIncrementSearchViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2079DA9C18F16D0A004C71F8 /* Debug */,
+				2079DA9D18F16D0A004C71F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2079DA6D18F16D0A004C71F8 /* Project object */;
+}
