@@ -38,6 +38,16 @@
                ReferencedContainer = "container:HMRIncrementSearchView.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2079DABE18F16D26004C71F8"
+               BuildableName = "IncrementSearchViewDemoTests.xctest"
+               BlueprintName = "IncrementSearchViewDemoTests"
+               ReferencedContainer = "container:HMRIncrementSearchView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

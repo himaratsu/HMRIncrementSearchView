@@ -10,23 +10,17 @@
 		2079DA7918F16D0A004C71F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA7818F16D0A004C71F8 /* Foundation.framework */; };
 		2079DA7E18F16D0A004C71F8 /* HMRIncrementSearchView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2079DA7D18F16D0A004C71F8 /* HMRIncrementSearchView.h */; };
 		2079DA8018F16D0A004C71F8 /* HMRIncrementSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079DA7F18F16D0A004C71F8 /* HMRIncrementSearchView.m */; };
-		2079DA8718F16D0A004C71F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA8618F16D0A004C71F8 /* XCTest.framework */; };
-		2079DA8818F16D0A004C71F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA7818F16D0A004C71F8 /* Foundation.framework */; };
-		2079DA8A18F16D0A004C71F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA8918F16D0A004C71F8 /* UIKit.framework */; };
-		2079DA8D18F16D0A004C71F8 /* libHMRIncrementSearchView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA7518F16D0A004C71F8 /* libHMRIncrementSearchView.a */; };
-		2079DA9318F16D0A004C71F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2079DA9118F16D0A004C71F8 /* InfoPlist.strings */; };
-		2079DA9518F16D0A004C71F8 /* HMRIncrementSearchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079DA9418F16D0A004C71F8 /* HMRIncrementSearchViewTests.m */; };
+		2079DAA318F16D26004C71F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA7818F16D0A004C71F8 /* Foundation.framework */; };
+		2079DAA518F16D26004C71F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DAA418F16D26004C71F8 /* CoreGraphics.framework */; };
+		2079DAA618F16D26004C71F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA8918F16D0A004C71F8 /* UIKit.framework */; };
+		2079DAAC18F16D26004C71F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2079DAAA18F16D26004C71F8 /* InfoPlist.strings */; };
+		2079DAAE18F16D26004C71F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079DAAD18F16D26004C71F8 /* main.m */; };
+		2079DAB218F16D26004C71F8 /* HMRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079DAB118F16D26004C71F8 /* HMRAppDelegate.m */; };
+		2079DAB518F16D26004C71F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2079DAB318F16D26004C71F8 /* Main.storyboard */; };
+		2079DAB818F16D26004C71F8 /* HMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079DAB718F16D26004C71F8 /* HMRViewController.m */; };
+		2079DABA18F16D26004C71F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2079DAB918F16D26004C71F8 /* Images.xcassets */; };
+		2079DAD318F16E3C004C71F8 /* libHMRIncrementSearchView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA7518F16D0A004C71F8 /* libHMRIncrementSearchView.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2079DA8B18F16D0A004C71F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2079DA6D18F16D0A004C71F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2079DA7418F16D0A004C71F8;
-			remoteInfo = HMRIncrementSearchView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2079DA7318F16D0A004C71F8 /* CopyFiles */ = {
@@ -47,12 +41,20 @@
 		2079DA7C18F16D0A004C71F8 /* HMRIncrementSearchView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HMRIncrementSearchView-Prefix.pch"; sourceTree = "<group>"; };
 		2079DA7D18F16D0A004C71F8 /* HMRIncrementSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMRIncrementSearchView.h; sourceTree = "<group>"; };
 		2079DA7F18F16D0A004C71F8 /* HMRIncrementSearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRIncrementSearchView.m; sourceTree = "<group>"; };
-		2079DA8518F16D0A004C71F8 /* HMRIncrementSearchViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMRIncrementSearchViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2079DA8618F16D0A004C71F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2079DA8918F16D0A004C71F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2079DA9018F16D0A004C71F8 /* HMRIncrementSearchViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HMRIncrementSearchViewTests-Info.plist"; sourceTree = "<group>"; };
-		2079DA9218F16D0A004C71F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2079DA9418F16D0A004C71F8 /* HMRIncrementSearchViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRIncrementSearchViewTests.m; sourceTree = "<group>"; };
+		2079DAA218F16D26004C71F8 /* IncrementSearchViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IncrementSearchViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2079DAA418F16D26004C71F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2079DAA918F16D26004C71F8 /* IncrementSearchViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IncrementSearchViewDemo-Info.plist"; sourceTree = "<group>"; };
+		2079DAAB18F16D26004C71F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2079DAAD18F16D26004C71F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2079DAAF18F16D26004C71F8 /* IncrementSearchViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IncrementSearchViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2079DAB018F16D26004C71F8 /* HMRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMRAppDelegate.h; sourceTree = "<group>"; };
+		2079DAB118F16D26004C71F8 /* HMRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRAppDelegate.m; sourceTree = "<group>"; };
+		2079DAB418F16D26004C71F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2079DAB618F16D26004C71F8 /* HMRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMRViewController.h; sourceTree = "<group>"; };
+		2079DAB718F16D26004C71F8 /* HMRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRViewController.m; sourceTree = "<group>"; };
+		2079DAB918F16D26004C71F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +66,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2079DA8218F16D0A004C71F8 /* Frameworks */ = {
+		2079DA9F18F16D26004C71F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2079DA8718F16D0A004C71F8 /* XCTest.framework in Frameworks */,
-				2079DA8A18F16D0A004C71F8 /* UIKit.framework in Frameworks */,
-				2079DA8D18F16D0A004C71F8 /* libHMRIncrementSearchView.a in Frameworks */,
-				2079DA8818F16D0A004C71F8 /* Foundation.framework in Frameworks */,
+				2079DAD318F16E3C004C71F8 /* libHMRIncrementSearchView.a in Frameworks */,
+				2079DAA518F16D26004C71F8 /* CoreGraphics.framework in Frameworks */,
+				2079DAA618F16D26004C71F8 /* UIKit.framework in Frameworks */,
+				2079DAA318F16D26004C71F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				2079DA7A18F16D0A004C71F8 /* HMRIncrementSearchView */,
-				2079DA8E18F16D0A004C71F8 /* HMRIncrementSearchViewTests */,
+				2079DAA718F16D26004C71F8 /* IncrementSearchViewDemo */,
 				2079DA7718F16D0A004C71F8 /* Frameworks */,
 				2079DA7618F16D0A004C71F8 /* Products */,
 			);
@@ -92,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				2079DA7518F16D0A004C71F8 /* libHMRIncrementSearchView.a */,
-				2079DA8518F16D0A004C71F8 /* HMRIncrementSearchViewTests.xctest */,
+				2079DAA218F16D26004C71F8 /* IncrementSearchViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 				2079DA7818F16D0A004C71F8 /* Foundation.framework */,
 				2079DA8618F16D0A004C71F8 /* XCTest.framework */,
 				2079DA8918F16D0A004C71F8 /* UIKit.framework */,
+				2079DAA418F16D26004C71F8 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,20 +128,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2079DA8E18F16D0A004C71F8 /* HMRIncrementSearchViewTests */ = {
+		2079DAA718F16D26004C71F8 /* IncrementSearchViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2079DA9418F16D0A004C71F8 /* HMRIncrementSearchViewTests.m */,
-				2079DA8F18F16D0A004C71F8 /* Supporting Files */,
+				2079DAB018F16D26004C71F8 /* HMRAppDelegate.h */,
+				2079DAB118F16D26004C71F8 /* HMRAppDelegate.m */,
+				2079DAB318F16D26004C71F8 /* Main.storyboard */,
+				2079DAB618F16D26004C71F8 /* HMRViewController.h */,
+				2079DAB718F16D26004C71F8 /* HMRViewController.m */,
+				2079DAB918F16D26004C71F8 /* Images.xcassets */,
+				2079DAA818F16D26004C71F8 /* Supporting Files */,
 			);
-			path = HMRIncrementSearchViewTests;
+			path = IncrementSearchViewDemo;
 			sourceTree = "<group>";
 		};
-		2079DA8F18F16D0A004C71F8 /* Supporting Files */ = {
+		2079DAA818F16D26004C71F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2079DA9018F16D0A004C71F8 /* HMRIncrementSearchViewTests-Info.plist */,
-				2079DA9118F16D0A004C71F8 /* InfoPlist.strings */,
+				2079DAA918F16D26004C71F8 /* IncrementSearchViewDemo-Info.plist */,
+				2079DAAA18F16D26004C71F8 /* InfoPlist.strings */,
+				2079DAAD18F16D26004C71F8 /* main.m */,
+				2079DAAF18F16D26004C71F8 /* IncrementSearchViewDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,23 +173,22 @@
 			productReference = 2079DA7518F16D0A004C71F8 /* libHMRIncrementSearchView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		2079DA8418F16D0A004C71F8 /* HMRIncrementSearchViewTests */ = {
+		2079DAA118F16D26004C71F8 /* IncrementSearchViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2079DA9B18F16D0A004C71F8 /* Build configuration list for PBXNativeTarget "HMRIncrementSearchViewTests" */;
+			buildConfigurationList = 2079DACD18F16D27004C71F8 /* Build configuration list for PBXNativeTarget "IncrementSearchViewDemo" */;
 			buildPhases = (
-				2079DA8118F16D0A004C71F8 /* Sources */,
-				2079DA8218F16D0A004C71F8 /* Frameworks */,
-				2079DA8318F16D0A004C71F8 /* Resources */,
+				2079DA9E18F16D26004C71F8 /* Sources */,
+				2079DA9F18F16D26004C71F8 /* Frameworks */,
+				2079DAA018F16D26004C71F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2079DA8C18F16D0A004C71F8 /* PBXTargetDependency */,
 			);
-			name = HMRIncrementSearchViewTests;
-			productName = HMRIncrementSearchViewTests;
-			productReference = 2079DA8518F16D0A004C71F8 /* HMRIncrementSearchViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = IncrementSearchViewDemo;
+			productName = IncrementSearchViewDemo;
+			productReference = 2079DAA218F16D26004C71F8 /* IncrementSearchViewDemo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,6 +205,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2079DA6C18F16D0A004C71F8;
 			productRefGroup = 2079DA7618F16D0A004C71F8 /* Products */;
@@ -203,17 +213,19 @@
 			projectRoot = "";
 			targets = (
 				2079DA7418F16D0A004C71F8 /* HMRIncrementSearchView */,
-				2079DA8418F16D0A004C71F8 /* HMRIncrementSearchViewTests */,
+				2079DAA118F16D26004C71F8 /* IncrementSearchViewDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2079DA8318F16D0A004C71F8 /* Resources */ = {
+		2079DAA018F16D26004C71F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2079DA9318F16D0A004C71F8 /* InfoPlist.strings in Resources */,
+				2079DABA18F16D26004C71F8 /* Images.xcassets in Resources */,
+				2079DAAC18F16D26004C71F8 /* InfoPlist.strings in Resources */,
+				2079DAB518F16D26004C71F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,31 +240,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2079DA8118F16D0A004C71F8 /* Sources */ = {
+		2079DA9E18F16D26004C71F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2079DA9518F16D0A004C71F8 /* HMRIncrementSearchViewTests.m in Sources */,
+				2079DAB218F16D26004C71F8 /* HMRAppDelegate.m in Sources */,
+				2079DAAE18F16D26004C71F8 /* main.m in Sources */,
+				2079DAB818F16D26004C71F8 /* HMRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2079DA8C18F16D0A004C71F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2079DA7418F16D0A004C71F8 /* HMRIncrementSearchView */;
-			targetProxy = 2079DA8B18F16D0A004C71F8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		2079DA9118F16D0A004C71F8 /* InfoPlist.strings */ = {
+		2079DAAA18F16D26004C71F8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2079DA9218F16D0A004C71F8 /* en */,
+				2079DAAB18F16D26004C71F8 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2079DAB318F16D26004C71F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2079DAB418F16D26004C71F8 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -350,39 +364,43 @@
 			};
 			name = Release;
 		};
-		2079DA9C18F16D0A004C71F8 /* Debug */ = {
+		2079DACE18F16D27004C71F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HMRIncrementSearchView/HMRIncrementSearchView-Prefix.pch";
+				GCC_PREFIX_HEADER = "IncrementSearchViewDemo/IncrementSearchViewDemo-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HMRIncrementSearchViewTests/HMRIncrementSearchViewTests-Info.plist";
+				INFOPLIST_FILE = "IncrementSearchViewDemo/IncrementSearchViewDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		2079DA9D18F16D0A004C71F8 /* Release */ = {
+		2079DACF18F16D27004C71F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HMRIncrementSearchView/HMRIncrementSearchView-Prefix.pch";
-				INFOPLIST_FILE = "HMRIncrementSearchViewTests/HMRIncrementSearchViewTests-Info.plist";
+				GCC_PREFIX_HEADER = "IncrementSearchViewDemo/IncrementSearchViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "IncrementSearchViewDemo/IncrementSearchViewDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -406,11 +424,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2079DA9B18F16D0A004C71F8 /* Build configuration list for PBXNativeTarget "HMRIncrementSearchViewTests" */ = {
+		2079DACD18F16D27004C71F8 /* Build configuration list for PBXNativeTarget "IncrementSearchViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2079DA9C18F16D0A004C71F8 /* Debug */,
-				2079DA9D18F16D0A004C71F8 /* Release */,
+				2079DACE18F16D27004C71F8 /* Debug */,
+				2079DACF18F16D27004C71F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

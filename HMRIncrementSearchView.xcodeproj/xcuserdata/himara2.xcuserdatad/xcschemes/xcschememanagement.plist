@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>IncrementSearchViewDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>2079DA8418F16D0A004C71F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2079DAA118F16D26004C71F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2079DABE18F16D26004C71F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
