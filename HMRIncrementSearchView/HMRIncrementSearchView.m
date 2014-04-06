@@ -8,6 +8,8 @@
 
 #import "HMRIncrementSearchView.h"
 
+static const NSInteger HMRTextFieldHeight = 30;
+
 @interface HMRIncrementSearchView ()
 <UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
 
@@ -43,15 +45,19 @@
 
 - (void)initialize
 {
-    self.textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, 40)];
-    _textField.borderStyle = UITextBorderStyleLine;
+    self.textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, HMRTextFieldHeight)];
+    _textField.borderStyle = UITextBorderStyleRoundedRect;
     _textField.delegate = self;
     [self addSubview:_textField];
     
-    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 40, self.frame.size.width, self.frame.size.height - 20)];
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, HMRTextFieldHeight,
+                                                                   self.frame.size.width,
+                                                                   self.frame.size.height - HMRTextFieldHeight)];
     _tableView.dataSource = self;
     _tableView.delegate = self;
     [self addSubview:_tableView];
+    
+    _isShowTableViewWithNoText = NO;
     
 }
 
@@ -71,11 +77,12 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if ([_hmrDataSource respondsToSelector:@selector(tableView:numberOfRowsInSection:)]) {
         NSInteger rows = [_hmrDataSource tableView:tableView numberOfRowsInSection:section];
-
+        _tableView.hidden = NO;
         if (rows == 0) {
             if ([_hmrDataSource respondsToSelector:@selector(tableView:numberOfRowsInSectionWithoutData:)]) {
                 rows = [_hmrDataSource tableView:tableView numberOfRowsInSectionWithoutData:section];
             }
+            _tableView.hidden = !_isShowTableViewWithNoText;
         }
         return rows;
     }
@@ -126,6 +133,14 @@ replacementString:(NSString *)string {
     }
         
     return YES;
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    _tableView.hidden = NO;
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    _tableView.hidden = !_isShowTableViewWithNoText;
 }
 
 @end

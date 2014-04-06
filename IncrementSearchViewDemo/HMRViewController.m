@@ -28,7 +28,7 @@
     
     self.sourceArray = @[@"himara2", @"rhiramat", @"hunishi", @"tshiino"];
     
-    self.hmrView = [[HMRIncrementSearchView alloc] init];
+    self.hmrView = [[HMRIncrementSearchView alloc] initWithFrame:CGRectMake(40, 40, 200, 400)];
     _hmrView.hmrDataSource = self;
     _hmrView.hmrDelegate = self;
     [self.view addSubview:_hmrView];

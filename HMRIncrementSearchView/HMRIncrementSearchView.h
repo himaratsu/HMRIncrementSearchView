@@ -37,6 +37,8 @@
 @property (nonatomic, assign) id<HMRIncrementSearchViewDataSource> hmrDataSource;
 @property (nonatomic, assign) id<HMRIncrementSearchViewDelegate> hmrDelegate;
 
+@property (nonatomic, assign) BOOL isShowTableViewWithNoText;
+
 - (void)reloadData;
 
 @end
