@@ -20,6 +20,7 @@
 		2079DAB818F16D26004C71F8 /* HMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2079DAB718F16D26004C71F8 /* HMRViewController.m */; };
 		2079DABA18F16D26004C71F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2079DAB918F16D26004C71F8 /* Images.xcassets */; };
 		2079DAD318F16E3C004C71F8 /* libHMRIncrementSearchView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079DA7518F16D0A004C71F8 /* libHMRIncrementSearchView.a */; };
+		2079DB1718F19E05004C71F8 /* ScreenShot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2079DB1618F19E05004C71F8 /* ScreenShot01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,7 @@
 		2079DAB618F16D26004C71F8 /* HMRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMRViewController.h; sourceTree = "<group>"; };
 		2079DAB718F16D26004C71F8 /* HMRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRViewController.m; sourceTree = "<group>"; };
 		2079DAB918F16D26004C71F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2079DB1618F19E05004C71F8 /* ScreenShot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		2079DAA718F16D26004C71F8 /* IncrementSearchViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2079DB1518F19DE9004C71F8 /* ScreenShot */,
 				2079DAB018F16D26004C71F8 /* HMRAppDelegate.h */,
 				2079DAB118F16D26004C71F8 /* HMRAppDelegate.m */,
 				2079DAB318F16D26004C71F8 /* Main.storyboard */,
@@ -151,6 +154,14 @@
 				2079DAAF18F16D26004C71F8 /* IncrementSearchViewDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2079DB1518F19DE9004C71F8 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				2079DB1618F19E05004C71F8 /* ScreenShot01.png */,
+			);
+			name = ScreenShot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 			files = (
 				2079DABA18F16D26004C71F8 /* Images.xcassets in Resources */,
 				2079DAAC18F16D26004C71F8 /* InfoPlist.strings in Resources */,
+				2079DB1718F19E05004C71F8 /* ScreenShot01.png in Resources */,
 				2079DAB518F16D26004C71F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

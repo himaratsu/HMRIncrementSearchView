@@ -26,9 +26,10 @@
 {
     [super viewDidLoad];
     
-    self.sourceArray = @[@"himara2", @"rhiramat", @"hunishi", @"tshiino"];
+    self.sourceArray = @[@"matsu", @"ume", @"sakura", @"fuji", @"ayame", @"botan",
+                         @"hagi", @"susuki", @"kiku", @"momiji", @"yanagi", @"kiri"];
     
-    self.hmrView = [[HMRIncrementSearchView alloc] initWithFrame:CGRectMake(40, 40, 200, 400)];
+    self.hmrView = [[HMRIncrementSearchView alloc] init];
     _hmrView.hmrDataSource = self;
     _hmrView.hmrDelegate = self;
     [self.view addSubview:_hmrView];
@@ -54,7 +55,6 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (!cell) {
-        // 再利用できない場合は新規で作成
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                       reuseIdentifier:CellIdentifier];
     }
@@ -69,7 +69,6 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (!cell) {
-        // 再利用できない場合は新規で作成
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                       reuseIdentifier:CellIdentifier];
     }
@@ -91,12 +90,9 @@
     [_hmrView reloadData];
 }
 
-
-
 - (void)filterContainsWithSearchText:(NSString *)searchText
 {
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF contains[c] %@", searchText];
-    
     self.filterdArray = [self.sourceArray filteredArrayUsingPredicate:predicate];
 }
 
