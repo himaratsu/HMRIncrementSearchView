@@ -159,7 +159,7 @@ replacementString:(NSString *)string {
 
 - (void)setTextFieldPlaceHolder:(NSString *)textFieldPlaceHolder {
     _textFieldPlaceHolder = textFieldPlaceHolder;
-    _textField.placeholder = _textFieldPlaceHolder;z
+    _textField.placeholder = _textFieldPlaceHolder;
 }
 
 @end
