@@ -18,6 +18,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 
 - (void)didChangeText:(HMRIncrementSearchView *)searchView withText:(NSString *)currentText;
+- (void)textFieldDidBeginEditing:(UITextField *)textField;
+- (void)textFieldDidEndEditing:(UITextField *)textField;
 
 @end
 

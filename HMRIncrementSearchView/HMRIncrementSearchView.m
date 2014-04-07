@@ -140,10 +140,18 @@ replacementString:(NSString *)string {
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
     _tableView.hidden = NO;
+    
+    if ([_hmrDelegate respondsToSelector:@selector(textFieldDidBeginEditing:)]) {
+        [_hmrDelegate textFieldDidBeginEditing:textField];
+    }
 }
 
 - (void)textFieldDidEndEditing:(UITextField *)textField {
     _tableView.hidden = !_isShowTableViewWithNoText;
+    
+    if ([_hmrDelegate respondsToSelector:@selector(textFieldDidEndEditing:)]) {
+        [_hmrDelegate textFieldDidEndEditing:textField];
+    }
 }
 
 @end
