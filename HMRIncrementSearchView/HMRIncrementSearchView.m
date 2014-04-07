@@ -109,6 +109,10 @@ static const NSInteger HMRTextFieldHeight = 30;
     }
 }
 
+- (void)registerNib:(UINib *)nib forCellReuseIdentifier:(NSString *)cellIdentifier {
+    [_tableView registerNib:nib forCellReuseIdentifier:cellIdentifier];
+}
+
 #pragma mark -
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {

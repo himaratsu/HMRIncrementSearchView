@@ -33,6 +33,7 @@
 @property (nonatomic, assign) BOOL isShowTableViewWithNoText;
 @property (nonatomic, strong) NSString *textFieldPlaceHolder;
 
+- (void)registerNib:(UINib *)nib forCellReuseIdentifier:(NSString *)cellIdentifier;
 - (void)reloadData;
 
 @end
