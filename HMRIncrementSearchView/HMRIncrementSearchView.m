@@ -119,11 +119,20 @@ static const NSInteger HMRTextFieldHeight = 30;
 - (BOOL)textField:(UITextField *)textField
 shouldChangeCharactersInRange:(NSRange)range
 replacementString:(NSString *)string {
-    // TODO: 厳密に現在の文字列を取得するよう変更する
-    NSString *inputString = _textField.text;
+    // 現在のテキストフィールドの値を取得
+    NSString *inputText = @"";
+    if (string == nil || [string isEqual:@""]) {
+        NSMutableString *tmpText = [_textField.text mutableCopy];
+        [tmpText replaceCharactersInRange:range withString:@""];
+        
+        inputText = [tmpText copy];
+    }
+    else {
+        inputText = [NSString stringWithFormat:@"%@%@", _textField.text, string];
+    }
     
     if ([_hmrDelegate respondsToSelector:@selector(didChangeText:withText:)]) {
-        [_hmrDelegate didChangeText:self withText:inputString];
+        [_hmrDelegate didChangeText:self withText:inputText];
     }
         
     return YES;
