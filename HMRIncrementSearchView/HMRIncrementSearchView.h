@@ -31,6 +31,7 @@
 @property (nonatomic, assign) id<HMRIncrementSearchViewDelegate> hmrDelegate;
 
 @property (nonatomic, assign) BOOL isShowTableViewWithNoText;
+@property (nonatomic, strong) NSString *textFieldPlaceHolder;
 
 - (void)reloadData;
 

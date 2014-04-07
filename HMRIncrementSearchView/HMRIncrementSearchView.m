@@ -154,4 +154,12 @@ replacementString:(NSString *)string {
     }
 }
 
+
+#pragma mark -
+
+- (void)setTextFieldPlaceHolder:(NSString *)textFieldPlaceHolder {
+    _textFieldPlaceHolder = textFieldPlaceHolder;
+    _textField.placeholder = _textFieldPlaceHolder;z
+}
+
 @end
